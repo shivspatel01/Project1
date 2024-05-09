@@ -1,0 +1,297 @@
+@font-face {
+    font-family: china;
+    src: url(./3856NeueMachina.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu Sans Mono", monospace;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+nav h1{
+    font-size: 30px;
+}
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+nav h4:hover{
+    text-decoration: underline;
+}
+nav button{
+    padding: 10px 12px;
+    font-size: 20pxpx;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+nav button:hover{
+    background-color: black;
+    color: white;
+}
+.center{
+    padding: 28px 60px;
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+.center1{
+    height: 100%;
+    width: 40%;
+}
+
+.center1 h1{
+    line-height: 1.2;
+    font-size: 55px;
+    font-family: china;
+}
+.center1 p{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    width: 95%;
+}
+.center1 button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 24px;
+}
+.center1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.center2{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+.center2 img{
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+.sectionbottom1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+}
+.sectionbottom1 img{
+    height: 40px;
+}
+ .services{
+    margin-top: 70px;
+    padding: 30px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.services h3{
+    background-color: rgb(154,233,117);
+    font-size: 35px;
+    font-weight: 500;
+    font-family: china;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.services p{
+    width: 50%;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container{
+    height: 8%6;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    padding: 45px;
+    flex-shrink: 0;
+    height: 280px;
+    width: 48%;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 10px 0 black;
+    display: flex;
+}
+.elem .part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem .part2 {
+    height: 100%;
+    width: 50%;
+}
+.elem .part2 img{
+    height: 150%;
+}
+.elem .part1 h2{
+    font-family: china;
+    width: 65%;
+    padding: 0px 2px;
+    border-radius: 10px;
+    background-color: rgb(154,233,117);
+    font-weight: 700;
+}
+.elem .part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 10px;
+
+}
+
+.elem .part1 h4 i{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.black{
+    background-color: black;
+}
+.black .part1 h2{
+    background-color: white;
+
+}
+.black .part1 h4{
+    color: white;
+}
+.black .part1 h4 i{
+    background-color: white;
+    color: black;
+}
+
+.container1{
+    height: 280px;
+    width: 90%;
+    background-color: rgba(225, 225, 225, 0.71);
+    border-radius: 20px;
+    margin: 40px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.container1 .part1{
+    padding: 60px 50px;
+    height: 100%;
+    width: 50%;
+    
+}
+.container1 .part1 h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    font-family: china;
+}
+.container1 .part1 p{
+    width: 500px;
+    margin-bottom: 25px;
+}
+.container1 .part1 button{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.container1 .part2{
+    align-items: center;
+}
+.container1 .part2 img{
+    height: 110%;
+    margin-right: 100px
+}
+
+
+
+.section3{
+    padding-bottom: 40px;
+}
+
+
+.cont {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: white;
+    padding: 40px 25px;
+    width: 90%;
+    margin: 50px auto;
+}
+.services1{
+    margin-top: 70px;
+    padding: 30px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.services1 h3{
+    background-color: rgb(154,233,117);
+    font-size: 35px;
+    font-weight: 500;
+    font-family: china;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.services1 p{
+    width: 50%;
+    font-weight: 600;
+    font-size: 15px;
+}
+.box{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.box a {
+    color: rgb(154,233,117);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
